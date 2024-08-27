@@ -1,0 +1,245 @@
+#photo {
+    padding-left: 10px;
+    margin-top: 10px;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+
+}
+
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #bcbcbc;
+    font-weight: bold;
+}
+ul li:hover {
+    color: aqua;
+    cursor: pointer;
+}
+
+ul li a:visited {
+    color:#bcbcbc;
+
+}
+
+
+
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: rgb(255, 255, 255);
+}
+
+.hero h1 {
+    color: #00bfa5;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 40px 20px;
+}
+
+.card1 {
+    background-color:#00bfa5;;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    flex: 1;
+    max-width: 250px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    height: 300px;
+}
+.card2 {
+    background-color:#2478e7;;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    flex: 1;
+    max-width: 250px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    height: 300px;
+}
+.card1 img{
+    margin-right: 200px ;
+
+}
+.card2 img{
+    margin-right: 200px ;
+
+}
+.card3 img{
+    margin-right: 200px ;
+
+}
+.card3 {
+    background-color:#080834;;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    flex: 1;
+    max-width: 250px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    height: 300px;
+}
+
+.card1 h2 {
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.card1 p {
+    font-size: 20px;
+    line-height: 1.4;
+    color: #f4f4f4;
+}
+.card2 h2 {
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.card2 p {
+    font-size: 20px;
+    line-height: 1.4;
+    color: #f4f4f4;
+}
+.card3 h2 {
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.card3 p {
+    font-size: 20px;
+    line-height: 1.4;
+    color: #f4f4f4;
+}
+
+#A {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100p;
+
+}
+
+
+.content-section {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.awelHeader {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.awelHeader img {
+    margin-top: 10px;
+    width: 40px;
+    height: 40px;
+}
+.awelHeader div {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 12%;
+    padding-right: 12%;
+}
+.awelHeader div p {
+    width: 45%;
+    color: #9c9a9a;
+   font-size: 20px;
+}
+.awelHeader h2{
+    color: #00bfa5;
+}
+
+
+
+
+#selection1{
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    color: rgb(255, 255, 255);
+}
+
+#selection2{
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    color: rgb(255, 255, 255);
+}
+
+#selection3{
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    color: rgb(255, 255, 255);
+}
+#selection4{
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    color: rgb(255, 255, 255);
+}
+
+
+
+
+  
+  .countries{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    justify-content: center;
+
+ 
+}
+.countries div{
+    display: grid;
+    margin-top: 50px;
+    
+}
+.countries div div{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    
+
+
+    
+}
+button {
+    background-color: #3a4cda; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    cursor: pointer;
+
+  }
+  
+
+  
